@@ -1,5 +1,5 @@
 context:
-  version: "0.5.0"
+  version: "0.5.1"
   name: fastapi-zitadel-auth
   python_min: '3.10'
 
@@ -9,7 +9,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/f/${{ name }}/fastapi_zitadel_auth-${{ version }}.tar.gz
-    sha256: 18d9fbd19de06ae487d947003b78a2d4c45b02784176a366dbe9904c9e3e2a2e
+    sha256: f502208817bb85532b81881c76acbfe6747797a0e4bdeea42414f36d852d7e95
 
 build:
   script: ${{ PYTHON }} -m pip install .
